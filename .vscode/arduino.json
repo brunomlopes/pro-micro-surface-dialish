@@ -1,0 +1,7 @@
+{
+    "port": "COM17",
+    "board": "SparkFun:avr:promicro",
+    "configuration": "cpu=16MHzatmega32U4",
+    "programmer": "ArduinoISP",
+    "sketch": "tiny85.ino"
+}
