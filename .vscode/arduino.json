@@ -3,5 +3,5 @@
     "board": "SparkFun:avr:promicro",
     "configuration": "cpu=16MHzatmega32U4",
     "programmer": "ArduinoISP",
-    "sketch": "tiny85.ino"
+    "sketch": "pro-micro-surface-dialish.ino"
 }

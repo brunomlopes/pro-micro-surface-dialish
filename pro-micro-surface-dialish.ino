@@ -34,7 +34,7 @@ void setup()
    pinMode(pinA, INPUT);
    pinMode(pinB, INPUT);
    pinMode(pinButton, INPUT);
-   // pinMode(pinSecondButton, INPUT);
+   pinMode(pinSecondButton, INPUT_PULLUP);
 
    digitalWrite(pinA, HIGH); //turn pullup resistor on
    digitalWrite(pinB, HIGH); //turn pullup resistor on
