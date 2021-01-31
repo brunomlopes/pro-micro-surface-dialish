@@ -80,6 +80,21 @@ void loop()
       previousButtonValue = buttonValue;
    }
    
+   buttonValue = digitalRead(pinSecondButton);
+   if (buttonValue != previousSecondButtonValue)
+   {
+      // this is is pressed on 0, pullup (i think)
+      if (!buttonValue)
+      {
+         SurfaceDial.press();
+      }
+      else
+      {
+         SurfaceDial.release();
+      }
+      previousSecondButtonValue = buttonValue;
+   }
+
    if (counter >= 1)
    {
       SurfaceDial.rotate(DialRotateDelta);
